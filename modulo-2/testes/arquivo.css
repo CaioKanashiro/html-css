@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: red;
+}
+
+#principal{
+    text-align: center;
+    background-color: blue;
+}
+
+h2{
+    color: rgb(1, 36, 1);
+}
+
+.basico{
+    color: blue;
+}
+ /* hover é para quando o mouse passar em cima do elemento */
+.basico:hover{
+    background-color: darkblue;
+}
+
+.intermediario{
+    color: yellow;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    padding: 10px;
+}
+
+.avancado{
+    color: blueviolet;
+}
+
+.escondido{
+    background-color: green;
+    display: none;
+}
+
+.basico:hover > .escondido{
+    display: block;
+}
