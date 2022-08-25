@@ -10,14 +10,19 @@ div.quadrado{
 }
 
 body{
-    background-image: url(imagens/wallpaper002.jpg);
     height: 100vh;
+    /* 
+    background-image: url(imagens/wallpaper002.jpg);
     background-position: center center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+*/
+    background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
     background-size: cover;
 }
 
 #q1{
+    margin-top: 15px;
     background-color: aqua;
 }
 
